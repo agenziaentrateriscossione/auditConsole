@@ -1,0 +1,67 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: DocWay - Audit
+url: 'https://github.com'
+releaseDate: '2019-04-04'
+developmentStatus: stable
+softwareVersion: 1.0.3
+softwareType: standalone/backend
+platforms:
+  - web
+categories:
+  - document-management
+  - data-visualization
+dependsOn:
+  proprietary:
+    - name: DocWay
+  open:
+    - name: MongoDB
+      version: '3.6'
+maintenance:
+  type: contract
+  contractors:
+    - name: 3D Informatica srl
+      website: 'https://www.3di.it'
+      until: '2021-01-01'
+legal:
+  license: AGPL-3.0-or-later
+  mainCopyrightOwner: Agenzia delle Entrate-Riscossione (ADER)
+  repoOwner: 3D Informatica srl
+  authorsFile: 3D Informatica srl
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+    - en
+it:
+  conforme:
+    misureMinimeSicurezza: true
+    gdpr: true
+  piattaforme:
+    spid: true
+description:
+  it:
+    genericName: Modulo di Audit
+    documentation: 'https://github.com'
+    shortDescription: Modulo per la registrazione delle azioni su DocWay
+    longDescription: >
+      Servizio attraverso il quale tutte le azioni svolte da operatori o
+      processi su un'applicazione web (attualmente sull'applicazione DocWay)
+      vengono tracciate e registrate all'interno di uno specifico database
+      MongoDB.
+
+      Il modulo di Audit traccia tutte le azioni svolte (attualmente su DocWay e
+      sulla sua Access Control List) da parte degli utenti applicativi
+      registrandole in un apposito archivio mongoDB, autonomo dall'archivio
+      DocWay (o ACL), in modo da garantire l'integrità e  l'indipendenza dei
+      dati registrati.
+
+      I dati registrati dal modulo di Audit (messi a disposizione per la
+      consultazione) garantiscono l'inalterabilità e la non modificabilità delle
+      informazioni stesse e la  sicurezza contro manomissioni da parte di
+      terzi. 
+    features:
+      - traccia tutte le azioni svolte su DocWay (e ACL)
