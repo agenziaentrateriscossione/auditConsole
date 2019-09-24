@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>it.tredi.audit</groupId>
+	<artifactId>auditConsoleParent</artifactId>
+	<version>1.0.2</version>
+	<packaging>pom</packaging>
+
+	<name>auditConsoleParent</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java-version>1.8</java-version>
+		<maven.deploy.skip>true</maven.deploy.skip>
+		<git.group>audit</git.group>
+		<jenkins.view>Audit</jenkins.view>
+	</properties>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.0.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	
+	<modules>
+		<module>auditConsole-view</module>
+		<module>auditConsole</module>
+	</modules>
+
+	<distributionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Internal Releases</name>
+			<url>http://ecatonchiro.bo.priv:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>Internal Releases</name>
+			<url>http://ecatonchiro.bo.priv:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<scm>
+		<url>http://gitlab.bo.priv/${git.group}/${project.groupId}.${project.artifactId}.git</url>
+		<developerConnection>scm:git:ssh://${git.username}@gitlab.bo.priv:${git.group}/${project.groupId}.${project.artifactId}.git</developerConnection>
+		<connection>scm:git:ssh://${git.username}@gitlab.bo.priv:${git.group}/${project.groupId}.${project.artifactId}.git</connection>
+	</scm>
+
+	<issueManagement>
+		<system>Redmine</system>
+		<url>https://3dinformatica.easyredmine.com</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://ecatonchiro.bo.priv:8080/jenkins/view/${jenkins.view}/job/console</url>
+	</ciManagement>
+</project>

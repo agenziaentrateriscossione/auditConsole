@@ -1,0 +1,9 @@
+{
+  "tipoRecord": [
+    "doc",
+    "persona_interna",
+    "persona_esterna",
+    "raccoglitore",
+    "fascicolo"
+  ]
+}

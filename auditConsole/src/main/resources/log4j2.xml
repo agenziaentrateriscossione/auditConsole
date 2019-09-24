@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    
+    <Properties>
+    	<Property name="logpattern">%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} --- [%15.15t] %-40.40c{1.} : %m%n%ex</Property>
+    	<!--Property name="logpattern">[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</Property-->
+    	
+    	<Property name="basedir">/tmp/logs</Property>
+    	<Property name="filename">audit-console</Property>
+    </Properties>
+    
+    <Appenders>
+    	<Console name="CONSOLE" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${logpattern}"/>
+        </Console>
+		<RollingFile name="ROLLFILE" fileName="${basedir}/${filename}.log" filePattern="${filename}-%d{MM-dd-yy-HH-mm-ss}-%i.log.gz">
+            <PatternLayout pattern="${logpattern}" />
+            <Policies>
+                <!--TimeBasedTriggeringPolicy interval="2" modulate="true"/-->
+                <SizeBasedTriggeringPolicy size="100MB"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="${basedir}" maxDepth="1">
+                    <IfFileName glob="${filename}-*">
+                    	<IfAny>
+                    		<!--IfAccumulatedFileSize exceeds="500MB" /-->
+                    		<IfAccumulatedFileCount exceeds="5" />
+                    	</IfAny>
+                    </IfFileName>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+    
+    <Loggers>
+		<!--Logger name="it.tredi.custom.level.logging.Class" level="debug" additivity="false">
+			<AppenderRef ref="ROLLFILE"/>
+		</Logger-->
+        <Root level="info" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+            <!--AppenderRef ref="ROLLFILE"/-->
+        </Root>
+    </Loggers>
+    
+</Configuration>
+

@@ -1,0 +1,55 @@
+<header *ngIf="remoteUser">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" id="app-name" href="javascript:void(0)" routerLink="/">{{appName}}</a>
+    <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
+            aria-controls="header-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div [ngbCollapse]="isNavbarCollapsed" class="navbar-collapse collapse flex-row-reverse" id="header-navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item" placement="bottom-right" ngbDropdown>
+          <a id="user-dropdown" class="nav-link no-caret" href="javascript:void(0);" ngbDropdownToggle>
+            <span>
+              <fa-layers class="fa-fw">
+                <fa-icon [icon]="faUser" transform="left-6"></fa-icon>
+                <fa-icon [icon]="faCircle" transform="grow-12 left-6"></fa-icon>
+              </fa-layers>
+            </span>
+            {{ remoteUser.username }}
+            <span><fa-icon [icon]="faCaretDown"></fa-icon></span>
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="userDropdown" ngbDropdownMenu>
+            <a class="dropdown-item" [routerLink]="['/login']">{{'header.Logout' | translate}}</a>
+            <a class="dropdown-item" href="javascript:void(0);" (click)="openLangModal(langModal)">{{'header.Cambia lingua' | translate}}</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- modale per cambiare la lingua dell'applicazione -->
+<ng-template #langModal let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">{{'header.Seleziona lingua' | translate}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-6">
+        <div (click)="switchLang('it')" class="flag-container text-center clickable">
+          Italiano<img class="flag-image ml-2 ml-sm-4" [src]="itFlag" alt="italian flag">
+        </div>
+      </div>
+      <div class="col-6">
+        <div (click)="switchLang('en')" class="flag-container text-center clickable">
+          English<img class="flag-image ml-2 ml-sm-4" [src]="enFlag" alt="english flag">
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>

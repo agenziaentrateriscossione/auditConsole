@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-size: 0.9rem !important;
+}
+.ng-select.bootstrap.ng-select-disabled>.ng-select-container {
+  background-color: #e9ecef;
+}
+.ng-select.bootstrap .ng-select-container {
+  min-height: 38px;
+}
+.clickable {
+  cursor: pointer;
+}

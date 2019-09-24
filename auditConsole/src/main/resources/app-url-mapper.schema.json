@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "App Mapper",
+  "description": "Configurazione per la creazione dei link dai recordi di audit alle relative corrispondenze nelle varie applicazioni",
+  "type": "object",
+  "properties": {
+    "maps": {
+      "description": "Serie di configurazione di mappature",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "archive": {
+            "description": "Archivio / DB del documento",
+            "type": "string"
+          },
+          "type": {
+            "description": "Tipologia di documento",
+            "type": "string"
+          },
+          "url": {
+            "description": "URL corrispondente",
+            "type": "string"
+          }
+        },
+        "required": ["archive", "type", "url"]
+      }
+    }
+  }
+}

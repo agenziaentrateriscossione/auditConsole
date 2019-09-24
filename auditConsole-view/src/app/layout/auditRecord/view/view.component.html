@@ -1,0 +1,169 @@
+<div class="row">
+  <div class="col-xs-12 col-md-8">
+    <h3 class="d-inline">{{'record.Visualizzazione audit' | translate}}</h3> <small class="ml-3">{{record.id}}</small>
+  </div>
+  <div class="mt-3 col-xs-12 mt-md-0 col-md-4 text-right {{ fixedButtonBar ? 'fixed-button-bar' : '' }}">
+    <button title="{{ 'record.Carica il record precedente' | translate }}" class="text-center btn btn-outline-primary rounded-circle btn-circle" [disabled]="!recordPosInfo.hasPrev" (click)="prevAuditRecord()">
+      <fa-icon [icon]="faArrowLeft" transform="grow-2"></fa-icon>
+    </button>
+    <button title="{{ 'record.Torna alla lista' | translate }}" routerLink="/" class="ml-2 mr-2 text-center btn btn-outline-primary rounded-circle btn-circle">
+      <fa-icon [icon]="faList" transform="grow-2 left-2"></fa-icon>
+    </button>
+    <button title="{{ 'record.Carica il record successivo' | translate }}" class="text-center btn btn-outline-primary rounded-circle btn-circle" [disabled]="!recordPosInfo.hasNext" (click)="nextAuditRecord()">
+      <fa-icon [icon]="faArrowRight" transform="grow-2"></fa-icon>
+    </button>
+  </div>
+</div>
+<hr>
+<div *ngIf="record">
+  <div class="row" *ngIf="record.id && !record.validChecksum">
+    <div class="col-12">
+      <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">{{'record.Attenzione' | translate}}!</h4>
+        {{'record.L\'integrità del record risulta compromessa' | translate}}
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3 mb-4">
+    <!-- card info sull'operazione effettuata -->
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          {{'record.Informazioni sull\'azione' | translate}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <span class="info-label">{{'record.Operazioni effettuate' | translate}}: </span>
+            <span *ngFor="let action of record.tipoAzione; let isLast = last">
+                <span class="bold">{{action}}</span><span *ngIf="!isLast">, </span>
+            </span>
+          </li>
+          <li class="list-group-item">
+            <span class="info-label">{{'record.Data' | translate}}: </span>
+            {{record.data | date:'dd/MM/yyyy, HH:mm:ss'}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card info sull'utente -->
+    <div class="col-xs-12 col-md-6 col-lg-4 mt-4 mt-md-0">
+      <div class="card">
+        <div class="card-header">
+          {{'record.Informazioni sull\'utente' | translate}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <span class="info-label">{{'record.Username' | translate}}: </span>
+            <span class="bold">{{record.user?.username}}</span>
+          </li>
+          <li class="list-group-item">
+            <span class="info-label">{{'record.User ID' | translate}}: </span>
+            {{record.user?.codUser}}
+          </li>
+          <li *ngIf="!hideIpAddress" class="list-group-item">
+            <span class="info-label">{{'record.Indirizzo IP' | translate}}: </span>
+            {{record.user?.ipAddress}}
+          </li>
+          <ng-container *ngIf="record.user?.delegaCodUser">
+            <li class="list-group-item">
+              <span class="info-label">{{'record.Username delega' | translate}}: </span>
+              <span class="bold">{{record.user.delegaUsername}}</span>
+            </li>
+            <li class="list-group-item">
+              <span class="info-label">{{'record.User ID delega' | translate}}: </span>
+              {{record.user.delegaCodUser}}
+            </li>
+          </ng-container>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card info sul record -->
+    <div class="col-xs-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+      <div class="card">
+        <div class="card-header">
+          {{'record.Informazioni sul record' | translate}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <span class="info-label">{{'record.Archivio' | translate}}: </span>
+            {{record.archivio}}
+          </li>
+          <li *ngIf="record.tipoRecord" class="list-group-item">
+            <span class="info-label">{{'record.Tipologia di record' | translate}}: </span>
+            {{record.tipoRecord}}
+          </li>
+          <li *ngIf="record.idRecord" class="list-group-item">
+            <span class="info-label">{{'record.Record ID' | translate}}: </span>
+            {{record.idRecord}}
+          </li>
+          <li *ngIf="applicationUrl" class="list-group-item">
+            <span class="info-label">{{'record.Link' | translate}}: </span>
+            <a [href]="applicationUrl" target="applicationTab">{{applicationUrl}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card extra info -->
+    <div class="col-xs-12 col-md-6 col-lg-4 mt-4" *ngIf="record.extraInfo">
+      <div class="card">
+        <div class="card-header">
+          {{'record.Informazioni extra' | translate}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" *ngFor="let infoEntry of record.extraInfo | entries">
+            <span class="info-label">{{infoEntry.key}}: </span>
+            {{infoEntry.value}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- rappresentazione dei changes -->
+    <div *ngFor="let change of record.changes" class="col-12 mt-4">
+      <div class="card">
+        <div class="card-header" *ngIf="change.before && !change.after">
+          {{'record.Eliminazione' | translate}}
+        </div>
+        <div class="card-header" *ngIf="!change.before && change.after">
+          {{'record.Inserimento' | translate}}
+        </div>
+        <div class="card-header" *ngIf="change.before && change.after">
+          {{'record.Modifica' | translate}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <span class="info-label">{{'record.Campo' | translate}}: </span>
+            <span class="bold">{{change.field}}</span>
+          </li>
+          <li class="list-group-item" *ngIf="change.before || change.after">
+            <div class="row" *ngIf="change.before && !change.after">
+              <div class="col-12 red-diff">
+                <div class="diff-title">{{'record.Valore eliminato' | translate}}:</div>
+                <pre>{{change.before | jsonString}}</pre>
+              </div>
+            </div>
+            <div class="row" *ngIf="!change.before && change.after">
+              <div class="col-12 green-diff">
+                  <div class="diff-title">{{'record.Valore inserito' | translate}}:</div>
+                <pre>{{change.after | jsonString}}</pre>
+              </div>
+            </div>
+            <div class="row" *ngIf="change.before && change.after">
+              <div class="col-12 mr-md-1 col-md red-diff">
+                <div class="diff-title">{{'record.Valore prima' | translate}}:</div>
+                <pre>{{change.before | jsonString}}</pre>
+              </div>
+              <div class="col-12 ml-md-1 col-md green-diff">
+                <div class="diff-title">{{'record.Valore dopo' | translate}}:</div>
+                <pre>{{change.after | jsonString}}</pre>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

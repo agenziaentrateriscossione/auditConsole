@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  #filter-component {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+  }
+}
+#filter-component {
+  z-index: 100;
+}
+.limit-height {
+  height: calc(100vh - 125px - 2rem);
+  overflow-y: auto;
+}
+.filter-button {
+  position: fixed;
+  top: 75px;
+  right: 23px;
+  left: auto;
+  bottom: auto;
+}
+.form-control.ng-invalid.ng-touched {
+  border-color: #dc3545;
+}
+.btn-primary {
+  background-color: #357EBD;
+}
+.btn-primary:hover {
+  background-color: #2578bc;
+}

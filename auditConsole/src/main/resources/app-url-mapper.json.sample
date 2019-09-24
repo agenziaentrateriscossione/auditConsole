@@ -1,0 +1,49 @@
+{
+    "maps": [
+        {
+            "archive": "xdocwaydoc",
+            "type": "doc",
+            "url": "http://HOST[:PORT]/DocWay4/docway/loaddoc.pf?db=${archive}&alias=docnrecord&value=${id}"
+        },
+        {
+            "archive": "xdocwaydoc",
+            "type": "fascicolo",
+            "url": "http://HOST[:PORT]/DocWay4/docway/loaddoc.pf?db=${archive}&alias=fasc_nrecord&value=${id}"
+        },
+        {
+            "archive": "xdocwaydoc",
+            "type": "raccoglitore",
+            "url": "http://HOST[:PORT]/DocWay4/docway/loaddoc.pf?db=${archive}&alias=rac_nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "struttura_esterna",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=/struttura_esterna/@nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "struttura_interna",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=/struttura_interna/@nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "persona_esterna",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=/persona_esterna/@nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "persona_interna",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=/persona_interna/@nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "gruppo",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=/gruppo/@nrecord&value=${id}"
+        },
+        {
+            "archive": "acl",
+            "type": "ruolo",
+            "url": "http://HOST[:PORT]/DocWay4/acl/load.pf?alias=ruoli_nrecord&value=${id}"
+        }
+    ]
+}

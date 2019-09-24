@@ -1,0 +1,51 @@
+{
+  "fakeRecord": {
+    "id": "5b32332e755b9d2e6c562520",
+    "archivio": "xdocwaydoc",
+    "idRecord": "00157071",
+    "tipoRecord": "doc",
+    "user": {
+      "username": "llbianchi",
+      "codUser": "PI000181",
+      "ipAddress": "127.0.0.1",
+      "actualUsername": "llbianchi",
+      "actualCodUser": "PI000181"
+    },
+    "tipoAzione": [
+      "PROTOCOLLAZIONE",
+      "RIMOZIONE_CC"
+    ],
+    "data": "2018-06-21T10:11:48.174+02:00",
+    "extraInfo" : {
+      "fileId" : "3533.pdf"
+    },
+    "changes": [
+      {
+        "field": "doc.@anno",
+        "keys": null,
+        "after": "2018"
+      },
+      {
+        "field": "doc.@bozza",
+        "keys": null,
+        "before": "si",
+        "after": "no"
+      },
+      {
+        "field": "doc.@num_prot",
+        "keys": null,
+        "after": "2018-3DINBO2-0008019"
+      },
+      {
+        "field": "doc.rif_interni.rif[PI000181, CC]",
+        "keys": {
+          "@cod_persona": "PI000181",
+          "@diritto": "CC"
+        },
+        "before": "{\"@nome_persona\":\"Bianchi Luigi Leonardo\",\"@nome_uff\":\"Ufficio Tecnico\",\"@cod_uff\":\"SI000148\",\"@oper\":\"Gestione Bozze\",\"@intervento\":\"si\",\"@cod_persona\":\"PI000181\",\"@diritto\":\"CC\"}"
+      }
+    ],
+    "checksum": "NINKVJFCYGSP6FA80921A90B5D679BA1825195DB0849",
+    "validChecksum": true
+  }
+}

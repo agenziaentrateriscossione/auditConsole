@@ -1,0 +1,2064 @@
+{
+  "archivio": [
+    "acl",
+    "xdocwaydoc",
+    "xdocwayproc"
+  ]
+,
+  "auditRecord": [
+    {
+      "id": "5b2c11380e9e5b2a9bb8cffe",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE",
+        "VISTO"
+      ],
+      "data": "2018-06-21T20:57:28.722Z",
+      "checksum": "644TUJTOB7HQ9D8BE6D87C6808E9B053D09F9903BEFE"
+    },
+    {
+      "id": "5b2c11380e9e5b2a9bb8cfff",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISTO"
+      ],
+      "data": "2018-06-21T20:57:28.724Z",
+      "checksum": "VQWJM2RYMFRX2B951E5B2B1DC24B4272D342C3D5DC02"
+    },
+    {
+      "id": "5b2c12b30e9e5b2c74f31ed9",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:03:47.441Z",
+      "checksum": "S9YLJHMBIWVK3E0167FB42ED11D4CF92365A58D1F2DB"
+    },
+    {
+      "id": "5b2c12bb0e9e5b2c74f31eda",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-21T21:03:55.406Z",
+      "checksum": "E9FEJEN9R3VTD367EDDA7D10238718C3200E8DBE7EAB"
+    },
+    {
+      "id": "5b2c12c40e9e5b2c74f31edb",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "CREAZIONE_RECORD",
+        "VISTO"
+      ],
+      "data": "2018-06-21T21:04:04.247Z",
+      "changes": [
+        {
+          "field": "doc",
+          "keys": null,
+          "after": "{\"@idRecord\":\"00239081\",\"@sensibile\":\"no\",\"allegato\":{\"#text\":\"0 - nessun allegato\"},\"scadenza\":{\"@tipo\":\"nessuna\"},\"rif_interni\":{\"rif[PI000008, RPA]\":{\"@nome_persona\":\"Stagni Simone\",\"@nome_uff\":\"Servizio Tecnico Bologna\",\"@cod_uff\":\"00003\",\"@cod_persona\":\"PI000008\",\"@diritto\":\"RPA\"},\"rif[PI000060, CC]\":{\"@nome_persona\":\"Bernardini Mirko\",\"@nome_uff\":\"Servizio Tecnico Bologna\",\"@cod_uff\":\"00003\",\"@intervento\":\"si\",\"@cod_persona\":\"PI000060\",\"@diritto\":\"CC\"},\"rif[PI000008, CC]\":{\"@nome_persona\":\"Stagni Simone\",\"@nome_uff\":\"Servizio Tecnico Bologna\",\"@cod_uff\":\"00003\",\"@intervento\":\"si\",\"@cod_persona\":\"PI000008\",\"@diritto\":\"CC\"}},\"@tipo\":\"varie\",\"oggetto\":{\"#text\":\"PROVA DEFINITIVA VISTO E VISUALIZZAZIONE 8\"},\"@annullato\":\"no\",\"@data_prot\":\"21/06/2018\",\"@personale\":\"no\",\"classif\":{\"#text\":\"01/01 - Normativa e relativa attuazione, statuto e regolamenti\",\"@cod\":\"01/01\"},\"extra\":{\"approvazioneDoc\":{\"@stato\":\"non-impostato\"}},\"@cod_amm_aoo\":\"3DINBOL\",\"@bozza\":\"no\",\"@anno\":\"2018\"}"
+        }
+      ],
+      "checksum": "AYWL9XIT3T7608CCCAF361C20A06A4CD17918C970046"
+    },
+    {
+      "id": "5b2c12ce0e9e5b2c74f31edc",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:04:14.490Z",
+      "checksum": "NDXCPEHTQZJY77FAC34358750C255049977D5A1D39E0"
+    },
+    {
+      "id": "5b2c12d70e9e5b2c74f31edd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:04:23.920Z",
+      "checksum": "TYE0DK1VNAKLDC0C8AAF7E96B29291B1AB6878E96F17"
+    },
+    {
+      "id": "5b2c12dd0e9e5b2c74f31ede",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:04:29.939Z",
+      "checksum": "FMDAI2FWNVLJ6AE1C4A17720E6A756399D176D6FAA13"
+    },
+    {
+      "id": "5b2c12e20e9e5b2c74f31edf",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:04:34.021Z",
+      "checksum": "UMZBYZVPN63B99F3E19B25717481C6C73206B7AEBFCF"
+    },
+    {
+      "id": "5b2c12e50e9e5b2c74f31ee0",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-21T21:04:37.927Z",
+      "checksum": "IIQYRU3NBTNH4AF1CD76C961CE379E272ED23FA45A87"
+    },
+    {
+      "id": "5b2c12e50e9e5b2c74f31ee1",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISTO"
+      ],
+      "data": "2018-06-21T21:04:37.947Z",
+      "checksum": "TIFTI96WTQU06FE69C7F16056EB29A6524393BA833D1"
+    },
+    {
+      "id": "5b2c1a2a01a6af319b279126",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:35:38.691Z",
+      "checksum": "2M6EGTIBULUL1FA4E4D7C45437251E86B7B6B2A1B8EE"
+    },
+    {
+      "id": "5b2c1a3601a6af319b279127",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:35:50.163Z",
+      "checksum": "RLNHHMSQ1IKI03F689E585A3A042AB89D9216A069DD1"
+    },
+    {
+      "id": "5b30c93c4b961825501195b7",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T10:51:40.279Z",
+      "checksum": "8ZVK5LJ1BLZTA5C33AA6FCE055EEF26231D80361F58D"
+    },
+    {
+      "id": "5b30c9524b961825501195b8",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:52:02.638Z",
+      "checksum": "ODCRE0SALIRI485F6FEB083C4333DEEAD46977C283FB"
+    },
+    {
+      "id": "5b30c97c4b961825501195b9",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "MODIFICA_RECORD"
+      ],
+      "data": "2018-06-25T10:52:44.576Z",
+      "changes": [
+        {
+          "field": "doc.files",
+          "keys": null,
+          "after": "{\"xw:file[8637.]\":{\"@convert\":\"yes\",\"@name\":\"8637.\",\"@title\":\"Screenshot-2018-1-10 Archivio Strutture e Persone\",\"chkin\":{\"@ora\":\"12:52:44\",\"@operatore\":\"Stagni Simone (Servizio Tecnico Bologna)\",\"@cod_operatore\":\"PI000008\",\"@data\":\"20180625\"}}}"
+        }
+      ],
+      "checksum": "TXTQJFRTSJGD9B7FFEA78FFA01A219C1BB3B7CBDB059"
+    },
+    {
+      "id": "5b30c9904b961825501195ba",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "MODIFICA_RECORD"
+      ],
+      "data": "2018-06-25T10:53:04.633Z",
+      "changes": [
+        {
+          "field": "doc.files.xw:file[8637.].@agent.pdf",
+          "keys": {
+            "@name": "8637."
+          },
+          "after": "yes"
+        }
+      ],
+      "checksum": "ASU8CW3QCV62A177A5DBE9F8ECBBD889407F51578F5E"
+    },
+    {
+      "id": "5b30c9b24b961825501195bb",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00238880",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:53:38.554Z",
+      "checksum": "A9LOLKCFITIS5602DA9E29C9B4E7F387B4A54A7E60D1"
+    },
+    {
+      "id": "5b30c9bb4b961825501195bc",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239074",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:53:47.319Z",
+      "checksum": "J9MF2O3I586P5627288FD19A149672B1807FCA518C93"
+    },
+    {
+      "id": "5b30d0c84b961825501195bd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-25T11:23:52.144Z",
+      "checksum": "GOO5O5KB735FCB848196425B0E0DE59B70540571D458"
+    },
+    {
+      "id": "5b30df804b961825501195be",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:26:40.509Z",
+      "checksum": "VXALCU051ZUD57F8D43654AA9D1B2F4FFDFAAF46D8A0"
+    },
+    {
+      "id": "5b30dfa24b961825501195bf",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:27:14.226Z",
+      "checksum": "SYMSQGPFYOGN8CB5921CCABE3448157527D9C295C57E"
+    },
+    {
+      "id": "5b30e0574b96182de5f0ddcd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:30:15.548Z",
+      "checksum": "0Y2S6VJPJZT55B4EBFEF8A35C7B905595F1478901F5B"
+    },
+    {
+      "id": "5b30e05b4b96182de5f0ddce",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:30:19.593Z",
+      "checksum": "6WQZVKC5UD2B0DF8C809903F0CC55A955D158743405D"
+    },
+    {
+      "id": "5b30e0d64b96182f2e834ec3",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:32:22.945Z",
+      "checksum": "GR8WQ9Q00DAN624E5A42A952090CA1591948E4C8BC51"
+    },
+    {
+      "id": "5b30e0dc4b96182f2e834ec4",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:32:28.038Z",
+      "checksum": "JJOYNBH33HYGA5A3F668BFA31F9DC888280ED4305FAD"
+    },
+    {
+      "id": "5b30e0ed4b96182f2e834ec5",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "DOWNLOAD_FILE"
+      ],
+      "data": "2018-06-25T12:32:45.448Z",
+      "extraInfo": {
+        "fileId": "8637."
+      },
+      "checksum": "G4IM3V00N7JU58B75DF176CFD4DB70A12176D5F8BD4D"
+    },
+    {
+      "id": "5b30e0fa4b96182f2e834ec6",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "DOWNLOAD_FILE"
+      ],
+      "data": "2018-06-25T12:32:58.042Z",
+      "extraInfo": {
+        "fileId": "8637."
+      },
+      "checksum": "LLU9NJGESZRNF72889E9CF465D16D896DE2149618756"
+    },
+    {
+      "id": "5b30e1044b96182f2e834ec7",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:33:08.589Z",
+      "checksum": "Z6FNMBGBERVR874627B8990F1BF2E0C7624636F45660"
+    },
+    {
+      "id": "5b30e1104b96182f2e834ec8",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239073",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:33:20.752Z",
+      "checksum": "R1IS1IFNDHRI5138891D03E26C2383B8C4D9653AB67E"
+    }
+  ]
+,
+  "auditTitle": [
+    {
+      "id": "5b2c11380e9e5b2a9bb8cffe",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE",
+        "VISTO"
+      ],
+      "data": "2018-06-21T20:57:28.722Z"
+    },
+    {
+      "id": "5b2c11380e9e5b2a9bb8cfff",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISTO"
+      ],
+      "data": "2018-06-21T20:57:28.724Z"
+    },
+    {
+      "id": "5b2c12b30e9e5b2c74f31ed9",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:03:47.441Z"
+    },
+    {
+      "id": "5b2c12bb0e9e5b2c74f31eda",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239080",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-21T21:03:55.406Z"
+    },
+    {
+      "id": "5b2c12c40e9e5b2c74f31edb",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "CREAZIONE_RECORD",
+        "VISTO"
+      ],
+      "data": "2018-06-21T21:04:04.247Z"
+    },
+    {
+      "id": "5b2c12ce0e9e5b2c74f31edc",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:04:14.490Z"
+    },
+    {
+      "id": "5b2c12d70e9e5b2c74f31edd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:04:23.920Z"
+    },
+    {
+      "id": "5b2c12dd0e9e5b2c74f31ede",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:04:29.939Z"
+    },
+    {
+      "id": "5b2c12e20e9e5b2c74f31edf",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:04:34.021Z"
+    },
+    {
+      "id": "5b2c12e50e9e5b2c74f31ee0",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-21T21:04:37.927Z"
+    },
+    {
+      "id": "5b2c12e50e9e5b2c74f31ee1",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000060",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISTO"
+      ],
+      "data": "2018-06-21T21:04:37.947Z"
+    },
+    {
+      "id": "5b2c1a2a01a6af319b279126",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-21T21:35:38.691Z"
+    },
+    {
+      "id": "5b2c1a3601a6af319b279127",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-21T21:35:50.163Z"
+    },
+    {
+      "id": "5b30c93c4b961825501195b7",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T10:51:40.279Z"
+    },
+    {
+      "id": "5b30c9524b961825501195b8",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:52:02.638Z"
+    },
+    {
+      "id": "5b30c97c4b961825501195b9",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "MODIFICA_RECORD"
+      ],
+      "data": "2018-06-25T10:52:44.576Z"
+    },
+    {
+      "id": "5b30c9904b961825501195ba",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "MODIFICA_RECORD"
+      ],
+      "data": "2018-06-25T10:53:04.633Z"
+    },
+    {
+      "id": "5b30c9b24b961825501195bb",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00238880",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:53:38.554Z"
+    },
+    {
+      "id": "5b30c9bb4b961825501195bc",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239074",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T10:53:47.319Z"
+    },
+    {
+      "id": "5b30d0c84b961825501195bd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGOUT"
+      ],
+      "data": "2018-06-25T11:23:52.144Z"
+    },
+    {
+      "id": "5b30df804b961825501195be",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:26:40.509Z"
+    },
+    {
+      "id": "5b30dfa24b961825501195bf",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:27:14.226Z"
+    },
+    {
+      "id": "5b30e0574b96182de5f0ddcd",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:30:15.548Z"
+    },
+    {
+      "id": "5b30e05b4b96182de5f0ddce",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:30:19.593Z"
+    },
+    {
+      "id": "5b30e0d64b96182f2e834ec3",
+      "archivio": "xdocwaydoc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "LOGIN"
+      ],
+      "data": "2018-06-25T12:32:22.945Z"
+    },
+    {
+      "id": "5b30e0dc4b96182f2e834ec4",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:32:28.038Z"
+    },
+    {
+      "id": "5b30e0ed4b96182f2e834ec5",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "DOWNLOAD_FILE"
+      ],
+      "data": "2018-06-25T12:32:45.448Z"
+    },
+    {
+      "id": "5b30e0fa4b96182f2e834ec6",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "DOWNLOAD_FILE"
+      ],
+      "data": "2018-06-25T12:32:58.042Z"
+    },
+    {
+      "id": "5b30e1044b96182f2e834ec7",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239081",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:33:08.589Z"
+    },
+    {
+      "id": "5b30e1104b96182f2e834ec8",
+      "archivio": "xdocwaydoc",
+      "idRecord": "00239073",
+      "tipoRecord": "doc",
+      "user": {
+        "username": "sstagni",
+        "codUser": "PI000008",
+        "ipAddress": "127.0.0.1"
+      },
+      "tipoAzione": [
+        "VISUALIZZAZIONE"
+      ],
+      "data": "2018-06-25T12:33:20.752Z"
+    }
+  ]
+,
+  "fakePage2": {
+    "content": [
+      {
+        "id": "5b323330755b9d2e6c562521",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562522",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562523",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562524",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562525",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562526",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562527",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562528",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562529",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562530",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562531",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562532",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562533",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562534",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562535",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562536",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562537",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562538",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562539",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562540",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "DOWNLOAD_FILE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": true,
+        "unsorted": false
+      },
+      "pageSize": 20,
+      "pageNumber": 1,
+      "offset": 0,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": false,
+    "totalPages": 3,
+    "totalElements": 60,
+    "first": false,
+    "sort": {
+      "sorted": true,
+      "unsorted": false
+    },
+    "numberOfElements": 20,
+    "size": 20,
+    "number": 1
+  }
+,
+  "fakePage3": {
+    "content": [
+      {
+        "id": "5b323330755b9d2e6c562541",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562542",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562543",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562544",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562545",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562546",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562547",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562548",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562549",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562550",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562551",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562552",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562553",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562554",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562555",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562556",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562557",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562558",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562559",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562560",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "LOGOUT"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": true,
+        "unsorted": false
+      },
+      "pageSize": 20,
+      "pageNumber": 2,
+      "offset": 0,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": true,
+    "totalPages": 3,
+    "totalElements": 60,
+    "first": false,
+    "sort": {
+      "sorted": true,
+      "unsorted": false
+    },
+    "numberOfElements": 20,
+    "size": 20,
+    "number": 2
+  }
+,
+  "tipoAzione": [
+    "LOGIN",
+    "CREAZIONE_RECORD",
+    "MODIFICA_RECORD",
+    "ELIMINAZIONE_RECORD",
+    "VISUALIZZAZIONE",
+    "DOWNLOAD_FILE",
+    "MODIFICA_THESAURO",
+    "LOGOUT",
+    "ANNULLAMENTO",
+    "ANNOTAZIONE",
+    "ACQUISIZIONE_IMMAGINI",
+    "AGGIUNTA_DOC_IN_FASCICOLO",
+    "RIMOZIONE_DOC_DA_FASCICOLO",
+    "MODIFICA_CLASSIFICAZIONE",
+    "PROTOCOLLAZIONE",
+    "ASSEGNAZIONE_NUM_REPERTORIO",
+    "RIGETTO_AL_PROTOCOLLISTA",
+    "SCARTO_ASSEGNAZIONE",
+    "SEGNATURA",
+    "STAMPA_INFO",
+    "STAMPA_RICEVUTA",
+    "TRASFORMAZIONE_IN_REPERTORIO",
+    "RIPRISTINO_TRASFORMAZIONE_IN_REP",
+    "VISTO",
+    "ASSEGNAZIONE_RPA",
+    "ASSEGNAZIONE_RPAM",
+    "ASSEGNAZIONE_CC",
+    "RIMOZIONE_CC",
+    "ASSEGNAZIONE_CDS",
+    "RIMOZIONE_CDS",
+    "ASSEGNAZIONE_OP",
+    "RIMOZIONE_OP",
+    "ASSEGNAZIONE_OPM",
+    "RIMOZIONE_OPM",
+    "ASSEGNAZIONE_INTERVENTO",
+    "RIMOZIONE_INTERVENTO",
+    "APERTURA_FASCICOLO",
+    "CHIUSURA_FASCIOLO",
+    "INCARICATO_TENUTA_FASCICOLO",
+    "TRASFERIMENTO_FASCICOLO",
+    "APERTURA_RACCOGLITORE",
+    "CHIUSURA_RACCOGLITORE",
+    "AGGIUNTA_IN_RACCOGLITORE",
+    "RIMOZIONE_DA_RACCOGLITORE",
+    "SPOSTAMENTO_CESTINO",
+    "RIPRISTINO_DA_CESTINO",
+    "STAMPA_CONTROLLO_DI_GESTIONE_E_REPORTISTICA",
+    "STAMPA_REGISTRO_PROTOCOLLO",
+    "STAMPA_REGISTRO_REPERTORI",
+    "STAMPA_REPERTORIO_FASCICOLI",
+    "STAMPA_REGISTRO_FATTURE",
+    "STAMPA_GENERICA",
+    "PRENOTAZIONE_FILE",
+    "RILASCIO_FILE",
+    "AGGIORNAMENTO_FILE",
+    "ADM_UPLOAD_FILE_RISORSA",
+    "ADM_MODIFICA_PROPERTY",
+    "ADM_RELAZIONI_FASCICOLI",
+    "MODIFICA_DIRITTI_SPECIALI",
+    "MODIFICA_DIRITTI_DI_AMMINISTRAZIONE",
+    "AGGIUNTA_DELEGA",
+    "MODIFICA_DELEGA",
+    "ELIMINAZIONE_DELEGA",
+    "UNKNOWN"
+  ]
+,
+  "tipoRecord": [
+    "doc",
+    "persona_interna",
+    "persona_esterna",
+    "raccoglitore",
+    "fascicolo"
+  ]
+,
+  "fakePage1": {
+    "content": [
+      {
+        "id": "5b323330755b9d2e6c562501",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562502",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562503",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562504",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562505",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562506",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562507",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562508",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562509",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562510",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562511",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562512",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562513",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562514",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562515",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562516",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562517",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562518",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b323330755b9d2e6c562519",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237795",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:36:00.260+0000",
+        "tipoAzione": [
+          "VISUALIZZAZIONE",
+          "VISTO"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      },
+      {
+        "id": "5b32332e755b9d2e6c562520",
+        "archivio": "xdocwaydoc",
+        "idRecord": "00237794",
+        "tipoRecord": "doc",
+        "data": "2018-06-26T12:35:58.969+0000",
+        "tipoAzione": [
+          "ELIMINAZIONE_RECORD"
+        ],
+        "user": {
+          "username": "sstagni",
+          "codUser": "PI000008",
+          "ipAddress": "127.0.0.1"
+        }
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": true,
+        "unsorted": false
+      },
+      "pageSize": 20,
+      "pageNumber": 0,
+      "offset": 0,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": false,
+    "totalPages": 3,
+    "totalElements": 60,
+    "first": true,
+    "sort": {
+      "sorted": true,
+      "unsorted": false
+    },
+    "numberOfElements": 20,
+    "size": 20,
+    "number": 0
+  }
+,
+  "fakeRecord": {
+    "id": "5b32332e755b9d2e6c562520",
+    "archivio": "xdocwaydoc",
+    "idRecord": "00157071",
+    "tipoRecord": "doc",
+    "user": {
+      "username": "llbianchi",
+      "codUser": "PI000181",
+      "ipAddress": "127.0.0.1",
+      "actualUsername": "llbianchi",
+      "actualCodUser": "PI000181"
+    },
+    "tipoAzione": [
+      "PROTOCOLLAZIONE",
+      "RIMOZIONE_CC"
+    ],
+    "data": "2018-06-21T10:11:48.174+02:00",
+    "extraInfo" : {
+      "fileId" : "3533.pdf"
+    },
+    "changes": [
+      {
+        "field": "doc.@anno",
+        "keys": null,
+        "after": "2018"
+      },
+      {
+        "field": "doc.@bozza",
+        "keys": null,
+        "before": "si",
+        "after": "no"
+      },
+      {
+        "field": "doc.@num_prot",
+        "keys": null,
+        "after": "2018-3DINBO2-0008019"
+      },
+      {
+        "field": "doc.rif_interni.rif[PI000181, CC]",
+        "keys": {
+          "@cod_persona": "PI000181",
+          "@diritto": "CC"
+        },
+        "before": "{\"@nome_persona\":\"Bianchi Luigi Leonardo\",\"@nome_uff\":\"Ufficio Tecnico\",\"@cod_uff\":\"SI000148\",\"@oper\":\"Gestione Bozze\",\"@intervento\":\"si\",\"@cod_persona\":\"PI000181\",\"@diritto\":\"CC\"}"
+      }
+    ],
+    "checksum": "NINKVJFCYGSP6FA80921A90B5D679BA1825195DB0849",
+    "validChecksum": true
+  }
+}

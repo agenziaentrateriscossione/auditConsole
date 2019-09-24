@@ -1,0 +1,22 @@
+.btn-circle {
+  width: 38px;
+  height: 38px;
+}
+.btn-outline-primary {
+  border-color: #2578bc;
+  color: #2578bc;
+}
+.btn-outline-primary:hover {
+  background-color: #357EBD;
+  color: #fff;
+}
+.limit-height {
+  height: calc(100vh - 140px - 2rem);
+  overflow-y: auto;
+}
+.limit-height>table {
+  margin: 0;
+}
+.table thead th {
+  text-transform: uppercase;
+}

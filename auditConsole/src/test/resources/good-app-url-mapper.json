@@ -1,0 +1,14 @@
+{
+  "maps": [
+    {
+      "archive": "xdocwaydoc",
+      "type": "doc",
+      "url": "www.example.it"
+    },
+    {
+      "archive": "acl",
+      "type": "persona_interna",
+      "url": "www.example.com"
+    }
+  ]
+}

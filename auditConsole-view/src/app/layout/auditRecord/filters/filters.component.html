@@ -1,0 +1,119 @@
+<button [title]="visibilityState === 'invisible' ? ('filters.Apri pannello dei filtri' | translate) : ('filters.Chiudi pannello dei filtri' | translate)"
+        class="fixed-top btn btn-info filter-button d-md-none" (click)="toggleVisibility()">
+  <div [@rotateFilterIcon]="visibilityState"><fa-icon  [icon]="faFilter"></fa-icon></div>
+</button>
+
+<div class="container-fluid bg-white" id="filter-component" [@toggleFilterMenu]="visibilityState">
+  <h3>{{'filters.Filtri' | translate }}</h3>
+  <hr>
+  <div class="row">
+    <div class="col limit-height">
+      <form id="fitler-form" (submit)="onSubmit()" #filterForm="ngForm">
+        <!-- Archivio -->
+        <div class="form-group">
+          <label for="archivio-select">
+            {{'filters.Archivio' | translate}}
+          </label>
+          <select class="form-control" id="archivio-select" [(ngModel)]="searchForm.archivio" name="archive"
+                  (change)="onArchiveSelected($event.target.value)">
+            <option [value]=""></option>
+            <option *ngFor="let archive of searchForm.archives" [value]="archive">{{archive}}</option>
+          </select>
+        </div>
+        <!-- Tipologia di record -->
+        <div class="form-group">
+          <label for="tipo-record-select">
+            {{'filters.Tipologia di record' | translate}}
+            <button type="button" (click)="refreshTipiRecord()" title="Refresh" class="btn btn-sm btn-light"><fa-icon [icon]="faSyncAlt"></fa-icon></button>
+          </label>
+          <select class="form-control" id="tipo-record-select" [(ngModel)]="searchForm.tipoRecord" name="recordType"
+                  aria-describedby="tipo-record-help" [disabled]="!searchForm.archivio">
+            <option [value]=""></option>
+            <option *ngFor="let recordType of searchForm.recordTypes" [value]="recordType">{{recordType}}</option>
+          </select>
+          <small id="tipo-record-help" class="form-text text-muted">Seleziona un archivio per sbloccare il campo.</small>
+        </div>
+        <!-- Record Id -->
+        <div class="form-group">
+          <label for="id-record-input-text">{{'filters.Record ID' | translate}}</label>
+          <input type="text" [(ngModel)]="searchForm.idRecord" name="recordId" class="form-control" id="id-record-input-text">
+        </div>
+        <!-- Azione -->
+        <div class="form-group">
+          <label for="tipo-azione-select">
+            {{'filters.Azione' | translate}}
+            <button type="button" (click)="refreshTipiAzione()" title="Refresh" class="btn btn-sm btn-light"><fa-icon [icon]="faSyncAlt"></fa-icon></button>
+          </label>
+          <ng-select aria-describedby="azione-help" id="tipo-azione-select"
+                     class="bootstrap" [closeOnSelect]="false"
+                     [disabled]="!searchForm.archivio" [multiple]="true"
+                     [items]="searchForm.actions" [(ngModel)]="searchForm.tipoAzione" name="actions"></ng-select>
+          <small id="azione-help" class="form-text text-muted">Seleziona un archivio per sbloccare il campo.</small>
+        </div>
+        <!-- Matricola utente -->
+        <div class="form-group">
+          <label for="id-user-input-text">{{'filters.User ID' | translate}}</label>
+          <input type="text" [(ngModel)]="searchForm.codUser" name="userId" class="form-control" id="id-user-input-text">
+        </div>
+        <!-- Login utente -->
+        <div class="form-group">
+          <label for="login-user-input-text">{{'filters.Username' | translate}}</label>
+          <input type="text" [(ngModel)]="searchForm.username" name="userLogin" class="form-control" id="login-user-input-text">
+        </div>
+        <!-- Data FROM + Orario FROM -->
+        <div class="form-group row justify-content-between">
+          <div class="col-6 col-sm-8 col-md-12 col-lg-6">
+            <label for="data-from-datepicker">{{'filters.Data inizio' | translate}}</label>
+            <div class="input-group">
+              <input class="form-control" id="data-from-datepicker" [(ngModel)]="searchForm.dateFrom" name="dateFrom"
+                     ngbDatepicker #dateFrom="ngbDatepicker" [maxDate]="searchForm.dateTo ? searchForm.dateTo : today"
+                     (dateSelect)="updateDataTo()" dateTimeCheck>
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" (click)="dateFrom.toggle()" type="button">
+                  <fa-icon [icon]="faCalendarAlt"></fa-icon>
+                </button>
+              </div>
+            </div>
+            <tredi-field-error-viewer [controlName]="'dateFrom'"></tredi-field-error-viewer>
+          </div>
+          <div class="col-6 col-sm-4 col-md-12 col-lg-6 mt-md-3 mt-lg-0">
+            <label for="orario-from-timepicker">{{'filters.Orario inizio' | translate}}</label>
+            <ngb-timepicker id="orario-from-timepicker" [spinners]="false" [(ngModel)]="searchForm.timeFrom"
+                            name="timeFrom" dateTimeCheck [disabled]="!searchForm.dateFrom">
+            </ngb-timepicker>
+            <tredi-field-error-viewer [controlName]="'timeFrom'"></tredi-field-error-viewer>
+          </div>
+        </div>
+        <!-- Data TO + Orario TO-->
+        <div class="form-group row justify-content-between">
+          <div class="col-6 col-sm-8 col-md-12 col-lg-6">
+            <label for="data-to-datepicker">{{'filters.Data fine' | translate}}</label>
+            <div class="input-group">
+              <input class="form-control" id="data-to-datepicker" [(ngModel)]="searchForm.dateTo" name="dateTo"
+                     ngbDatepicker #dateTo="ngbDatepicker" [maxDate]="today" [minDate]="searchForm.dateFrom"
+                     (dateSelect)="updateDataFrom()" dateTimeCheck>
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" (click)="dateTo.toggle()" type="button">
+                  <fa-icon [icon]="faCalendarAlt"></fa-icon>
+                </button>
+              </div>
+            </div>
+            <tredi-field-error-viewer [controlName]="'dateTo'"></tredi-field-error-viewer>
+          </div>
+          <div class="col-6 col-sm-4 col-md-12 col-lg-6 mt-md-3 mt-lg-0">
+            <label for="orario-to-timepicker">{{'filters.Orario fine' | translate}}</label>
+            <ngb-timepicker id="orario-to-timepicker" [spinners]="false" [(ngModel)]="searchForm.timeTo"
+                            name="timeTo" dateTimeCheck [disabled]="!searchForm.dateTo">
+            </ngb-timepicker>
+            <tredi-field-error-viewer [controlName]="'timeTo'"></tredi-field-error-viewer>
+          </div>
+        </div>
+        <div class="form-group mt-4">
+          <button type="submit" class="btn btn-primary mr-2">{{'filters.Cerca' | translate}}</button>
+          <button type="button" (click)="cleanSearchFormFields()" class="btn btn-secondary">{{'filters.Pulisci' | translate}}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,9 @@
+{
+  "/api/audit/dbs": "/archivio",
+  "/api/audit/:db/recordTypes": "/tipoRecord",
+  "/api/audit/:db/actions": "/tipoAzione",
+  "/api/audit/search?page=0&size=:size": "/fakePage1",
+  "/api/audit/search?page=1&size=:size": "/fakePage2",
+  "/api/audit/search?page=2&size=:size": "/fakePage3",
+  "/api/audit/:id/view": "/fakeRecord"
+}
