@@ -73,7 +73,7 @@ L'adozione della soluzione proposta all'interno di un sistema di gestione elettr
 * è stato realizzato un agent che rimane in ascolto dell'OpLog di MongoDB per individuare eventuali operazioni di cancellazione/modifica documenti(record) di MongoDB (il db di Audit deve consentire solo nuovi inserimenti). In caso in cui vengano individuate manomissioni (che potrebbero avvenire unicamente per mano di un amministratore di MongoDB) vengono immediatamente sollevati degli allarmi via email.
 ___
 
-> #### Per una visione complessiva del modulo e delle sue dipendenze si rimanda alla pagina [riuso](https://github.com/3dinformatica/riuso/blob/master/README.md)
+> #### Per una visione complessiva del modulo e delle sue dipendenze si rimanda alla pagina [riuso](https://github.com/agenziaentrateriscossione/riuso)
 ___
 ### Configurazione
 
