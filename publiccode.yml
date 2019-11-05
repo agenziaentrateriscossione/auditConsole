@@ -4,7 +4,7 @@
 
 publiccodeYmlVersion: '0.2'
 name: DocWay - Audit
-url: 'https://github.com'
+url: 'https://github.com/agenziaentrateriscossione/auditConsole'
 releaseDate: '2019-04-04'
 developmentStatus: stable
 softwareVersion: 1.0.3
@@ -24,19 +24,21 @@ maintenance:
   type: contract
   contractors:
     - name: 3D Informatica srl
-      website: 'https://www.3di.it'
+      website: 'http://www.3di.it'
       until: '2021-01-01'
 legal:
   license: AGPL-3.0-or-later
   mainCopyrightOwner: Agenzia delle Entrate-Riscossione (ADER)
   repoOwner: Agenzia delle Entrate-Riscossione (ADER)
-  authorsFile: 3D Informatica srl
 localisation:
   localisationReady: true
   availableLanguages:
     - it
     - en
 it:
+  countryExtensionVersion: '0.2'
+  riuso:
+    codiceIPA: esrsris
   conforme:
     misureMinimeSicurezza: true
     gdpr: true
@@ -45,7 +47,7 @@ it:
 description:
   it:
     genericName: Modulo di Audit
-    documentation: 'https://github.com'
+    documentation: 'https://github.com/agenziaentrateriscossione/auditConsole'
     shortDescription: Modulo per la registrazione delle azioni su DocWay
     longDescription: >
       Servizio attraverso il quale tutte le azioni svolte da operatori o
