@@ -1,10 +1,11 @@
-# This repository adheres to the publiccode.yml standard by including this 
+# This repository adheres to the publiccode.yml standard by including this
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
 name: DocWay - Audit
 url: 'https://github.com'
+logo: logo.png
 releaseDate: '2019-04-04'
 developmentStatus: stable
 softwareVersion: 1.0.3
@@ -62,6 +63,6 @@ description:
       I dati registrati dal modulo di Audit (messi a disposizione per la
       consultazione) garantiscono l'inalterabilità e la non modificabilità delle
       informazioni stesse e la  sicurezza contro manomissioni da parte di
-      terzi. 
+      terzi.
     features:
       - traccia tutte le azioni svolte su DocWay (e ACL)
