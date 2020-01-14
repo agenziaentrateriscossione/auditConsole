@@ -3,7 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: DocWay - Audit
+name: Gestione documentale DocWay - Modulo Audit
 url: 'https://github.com'
 logo: logo.png
 releaseDate: '2019-04-04'
