@@ -1,4 +1,4 @@
-# Gestione documentale DocWay - Modulo AUDIT
+# Sistema di Gestione documentale DocWay compensivo del Modulo AUDIT
 
 ## Modulo per la registrazione delle azioni su DocWay
 
