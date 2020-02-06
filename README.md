@@ -5,7 +5,7 @@
 #### Servizio attraverso il quale tutte le azioni svolte da operatori o processi sull'applicazione DocWay vengono tracciate e registrate all'interno di uno specifico database su MongoDB.
 ___
 
-> #### Per una visione complessiva del modulo e delle sue dipendenze si rimanda alla pagina [riuso](https://github.com/agenziaentrateriscossione/riuso)
+> #### Per l'installazione di DocWay ed eXtraWay si rimanda alla pagina [riuso](https://github.com/agenziaentrateriscossione/riuso)
 ___
 Il modulo di Audit traccia tutte le azioni svolte su DocWay (e ACL) da parte degli utenti registrandole in un apposito archivio mongoDB, autonomo dall'archivio DocWay (o ACL), in modo da garantire l'integrità e l'indipendenza dei dati registrati.
 I dati registrati nel modulo di audit (messi a disposizione per la consultazione) garantiscono l'inalterabilità e la non modificabilità delle informazioni stesse e la sicurezza contro manomissioni da parte di terzi.
