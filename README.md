@@ -5,6 +5,8 @@
 #### Servizio attraverso il quale tutte le azioni svolte da operatori o processi sull'applicazione DocWay vengono tracciate e registrate all'interno di uno specifico database su MongoDB.
 ___
 
+> #### Per una visione complessiva del modulo e delle sue dipendenze si rimanda alla pagina [riuso](https://github.com/agenziaentrateriscossione/riuso)
+___
 Il modulo di Audit traccia tutte le azioni svolte su DocWay (e ACL) da parte degli utenti registrandole in un apposito archivio mongoDB, autonomo dall'archivio DocWay (o ACL), in modo da garantire l'integrità e l'indipendenza dei dati registrati.
 I dati registrati nel modulo di audit (messi a disposizione per la consultazione) garantiscono l'inalterabilità e la non modificabilità delle informazioni stesse e la sicurezza contro manomissioni da parte di terzi.
 
@@ -73,8 +75,6 @@ L'adozione della soluzione proposta all'interno di un sistema di gestione elettr
 * è stato realizzato un agent che rimane in ascolto dell'OpLog di MongoDB per individuare eventuali operazioni di cancellazione/modifica documenti(record) di MongoDB (il db di Audit deve consentire solo nuovi inserimenti). In caso in cui vengano individuate manomissioni (che potrebbero avvenire unicamente per mano di un amministratore di MongoDB) vengono immediatamente sollevati degli allarmi via email.
 ___
 
-> #### Per una visione complessiva del modulo e delle sue dipendenze si rimanda alla pagina [riuso](https://github.com/agenziaentrateriscossione/riuso)
-___
 ### Configurazione
 
 Per attivare il modulo di audit su DocWay (o altre applicazioni integrate con esso, quali 3diWS o MSA) occorre abilitarlo attraverso uno specifico set di properties definite all'interno del file //it.highwaytech.broker.properties//:
