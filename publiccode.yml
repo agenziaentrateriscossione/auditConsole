@@ -4,7 +4,7 @@
 
 publiccodeYmlVersion: '0.2'
 name: Sistema di Gestione documentale DocWay compensivo del Modulo AUDIT
-url: 'https://github.com'
+url: 'https://github.com/agenziaentrateriscossione/auditConsole'
 logo: logo.png
 releaseDate: '2019-04-04'
 developmentStatus: stable
@@ -43,10 +43,13 @@ it:
     gdpr: true
   piattaforme:
     spid: true
+  countryExtensionVersion: '0.2'
+  riuso:
+    codiceIPA: esrsris
 description:
   it:
     genericName: Modulo di Audit
-    documentation: 'https://github.com'
+    documentation: 'https://github.com/agenziaentrateriscossione/auditConsole'
     shortDescription: Modulo per la registrazione delle azioni su DocWay
     longDescription: >
       Servizio attraverso il quale tutte le azioni svolte da operatori o
