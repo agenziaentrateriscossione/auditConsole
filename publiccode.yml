@@ -2,53 +2,27 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: 0.5.0
 name: Sistema di Gestione documentale DocWay compensivo del Modulo AUDIT
 url: 'https://github.com/agenziaentrateriscossione/auditConsole'
 logo: logo.png
-releaseDate: '2019-04-04'
+releaseDate: 2020-05-08
 developmentStatus: stable
-softwareVersion: 1.0.3
+softwareVersion: "1.0.6"
 softwareType: standalone/backend
 platforms:
   - web
 categories:
   - document-management
   - data-visualization
-dependsOn:
-  proprietary:
-    - name: DocWay
-  open:
-    - name: MongoDB
-      version: '3.6'
-maintenance:
-  type: contract
-  contractors:
-    - name: 3D Informatica srl
-      website: 'http://www.3di.it'
-      until: '2022-06-30'
-legal:
-  license: AGPL-3.0-or-later
-  mainCopyrightOwner: Agenzia delle Entrate-Riscossione (ADER)
-  repoOwner: 3D Informatica srl
-  authorsFile: 3D Informatica srl
-localisation:
-  localisationReady: true
-  availableLanguages:
-    - it
-    - en
-it:
-  conforme:
-    misureMinimeSicurezza: true
-    gdpr: true
-  piattaforme:
-    spid: true
-  countryExtensionVersion: '0.2'
-  riuso:
-    codiceIPA: esrsris
+organisation:
+  uri: urn:x-italian-pa:esrsris
+fundedBy:
+  - name: Agenzia delle Entrate-Riscossione (ADER)
+    uri: https://www.agenziaentrateriscossione.gov.it/
 description:
   it:
-    genericName: Modulo di Audit
+    localisedName: Modulo di Audit
     documentation: 'https://github.com/agenziaentrateriscossione/auditConsole'
     shortDescription: Modulo per la registrazione delle azioni su DocWay
     longDescription: >
@@ -69,3 +43,32 @@ description:
       terzi.
     features:
       - traccia tutte le azioni svolte su DocWay (e ACL)
+legal:
+  license: AGPL-3.0-or-later
+  mainCopyrightOwner: Agenzia delle Entrate-Riscossione (ADER)
+  repoOwner: Agenzia delle Entrate-Riscossione (ADER)
+maintenance:
+  type: contract
+  contractors:
+    - name: 3D Informatica srl
+      website: 'http://www.3di.it'
+      until: 2026-12-31
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+    - en
+dependsOn:
+  proprietary:
+    - name: DocWay
+  open:
+    - name: MongoDB
+      version: '3.6'
+IT:
+  countryExtensionVersion: "1.0"
+  piattaforme:
+    spid: false
+    cie: false
+    anpr: false
+    pagopa: false
+    io: false
